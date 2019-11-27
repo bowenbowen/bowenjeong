@@ -1,9 +1,26 @@
-<img src="assets/%3C3.JPG" alt="Jeong and Bowen">
-<p>2018 Tasmania &#128151;</p>
+<div>
+  <div class="photo-frame">
+    <img class="rotate" src="assets/%3C3.JPG" alt="Jeong and Bowen">
+    <p>2018 Tasmania &#128151;</p>
+  </div>
+  <div class="photo-frame">
+    <img src="assets/noodle.jpeg" alt="yummy">
+    <p>2019 New York &#128151;</p>
+  </div>
+</div>
 
-<style>    
-    img{
-        width: 50%;
-        transform: rotate(180deg);
-    }
+<style>
+  .photo-frame {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0;
+  }
+  img {
+    width: 50%;
+  }
+  .rotate {
+      transform: rotate(180deg);
+  }
 </style>
